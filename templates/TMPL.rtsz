@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTSZDocument>
+  <RoyalDocument>
+    <ID>`!uuid old='0c58b0a4-ae23-4831-821b-d6133d975766'!`</ID>
+    <Modified>`!$timeStamp!`</Modified>
+    <ModifiedBy>`!$invokerName!`</ModifiedBy>
+    <Name>`!$name!`</Name>
+    <Created>`!$timeStamp!`</Created>
+    <CreatedBy>`!$invokerName!`</CreatedBy>
+    <PositionNr>0</PositionNr>
+    <IsExpanded>True</IsExpanded>
+    <FileName>`!$templateOutPath!`</FileName>
+    <AutoMergeOption>1</AutoMergeOption>
+    <AutoSaveOnClose>False</AutoSaveOnClose>
+    <ColorFromParent>False</ColorFromParent>
+    <DocumentType>Workspace</DocumentType>
+    <SaveOption>2</SaveOption>
+    <Description />
+    <Color />
+    <PasswordHash />
+    <LockdownPasswordHash />
+    <LockdownFeaturesInUse>{}</LockdownFeaturesInUse>
+    <StoreFavoritesInUserConfig>False</StoreFavoritesInUserConfig>
+    <StoreFolderExpandStateInUserConfig>False</StoreFolderExpandStateInUserConfig>
+    <DeletedObjectRetention>30</DeletedObjectRetention>
+    <CredentialFromParent>False</CredentialFromParent>
+    <CredentialMode>0</CredentialMode>
+    <CredentialAutologon>True</CredentialAutologon>
+    <CredentialUsername />
+    <CredentialPassword />
+    <CredentialName />
+    <PreConnectTaskFromParent>False</PreConnectTaskFromParent>
+    <PreConnectTaskMode>1</PreConnectTaskMode>
+    <PreConnectTaskId>`!uuid old='00000000-0000-0000-0000-000000000000'!`</PreConnectTaskId>
+    <PreConnectTaskName />
+    <PreConnectTaskWait>False</PreConnectTaskWait>
+    <PostDisconnectTaskFromParent>False</PostDisconnectTaskFromParent>
+    <PostDisconnectTaskMode>1</PostDisconnectTaskMode>
+    <PostDisconnectTaskId>`!uuid old='00000000-0000-0000-0000-000000000000'!`</PostDisconnectTaskId>
+    <PostDisconnectTaskName />
+    <PostDisconnectTaskWait>False</PostDisconnectTaskWait>
+    <KeySequenceFromParent>False</KeySequenceFromParent>
+    <KeySequenceEnabled>False</KeySequenceEnabled>
+    <KeySequence />
+    <KeySequenceId>`!uuid old='00000000-0000-0000-0000-000000000000'!`</KeySequenceId>
+    <KeySequenceName />
+    <ManagementEndpointFromParent>False</ManagementEndpointFromParent>
+    <ManagementEndpointID>`!uuid old='00000000-0000-0000-0000-000000000000'!`</ManagementEndpointID>
+    <DeletedObjectHistory>`!uuid old='4b695a4c-5958-4f3c-b2ee-84cd240eedbb'!`</DeletedObjectHistory>
+  </RoyalDocument>
+  <RoyalTrash>
+    <ID>`!uuid old='633e88c5-251d-42ed-836c-159fc0705801'!`</ID>
+    <Name>Trashcan</Name>
+    <Modified>`!$timeStamp!`</Modified>
+    <Created>`!$timeStamp!`</Created>
+    <ModifiedBy>`!$invokerName!`</ModifiedBy>
+    <CreatedBy>`!$invokerName!`</CreatedBy>
+    <PositionNr>2</PositionNr>
+    <IsExpanded>False</IsExpanded>
+    <ParentID>`!uuid old='0c58b0a4-ae23-4831-821b-d6133d975766'!`</ParentID>
+  </RoyalTrash>
+  <RoyalFolder>
+    <ID>`!uuid old='b73def4d-1ac0-4f2f-b2bb-c01369eee6d8'!`</ID>
+    <Name>Connections</Name>
+    <Modified>`!$timeStamp!`</Modified>
+    <Created>`!$timeStamp!`</Created>
+    <ModifiedBy>`!$invokerName!`</ModifiedBy>
+    <CreatedBy>`!$invokerName!`</CreatedBy>
+    <PositionNr>4</PositionNr>
+    <IsExpanded>False</IsExpanded>
+    <ParentID>`!uuid old='0c58b0a4-ae23-4831-821b-d6133d975766'!`</ParentID>
+  </RoyalFolder>
+  <RoyalSSHConnection>
+    <ID>`!uuid old='32537f04-c8ba-4a50-8bee-3fcbcaf30565'!`</ID>
+    <Name>Terminal</Name>
+    <Modified>`!$timeStamp!`</Modified>
+    <Created>`!$timeStamp!`</Created>
+    <ModifiedBy>`!$invokerName!`</ModifiedBy>
+    <CreatedBy>`!$invokerName!`</CreatedBy>
+    <PositionNr>6</PositionNr>
+    <IsConnectionTemplate>False</IsConnectionTemplate>
+    <BackColor>0</BackColor>
+    <BackgroundTransparency>0</BackgroundTransparency>
+    <BellAction>1</BellAction>
+    <BlinkCursor>False</BlinkCursor>
+    <BoldColor>14</BoldColor>
+    <ColorFromParent>False</ColorFromParent>
+    <ConnectionType>custom;Custom Commands</ConnectionType>
+    <CredentialAutologon>True</CredentialAutologon>
+    <CredentialFromParent>False</CredentialFromParent>
+    <CredentialKeyMode>0</CredentialKeyMode>
+    <CredentialMode>0</CredentialMode>
+    <CredentialOmitDomain>False</CredentialOmitDomain>
+    <CursorAppearance>0</CursorAppearance>
+    <CursorColor>#ffffff</CursorColor>
+    <CursorTextColor>#000000</CursorTextColor>
+    <CustomCommandOSX>export ROYAL_FILE_PATH="$DocumentFilePath$"
+export ROYAL_FILE_DIR=`dirname "$ROYAL_FILE_PATH"`
+cd "$ROYAL_FILE_DIR"
+
+bash --init-file "./shell-env.sh"</CustomCommandOSX>
+    <CustomImageList>{}</CustomImageList>
+    <CustomPalette0NormalBlack>#000000</CustomPalette0NormalBlack>
+    <CustomPalette10BrightGreen>#55ff55</CustomPalette10BrightGreen>
+    <CustomPalette11BrightYellow>#ffff55</CustomPalette11BrightYellow>
+    <CustomPalette12BrightBlue>#5555ff</CustomPalette12BrightBlue>
+    <CustomPalette13BrightMagenta>#ff55ff</CustomPalette13BrightMagenta>
+    <CustomPalette14BrightCyan>#55ffff</CustomPalette14BrightCyan>
+    <CustomPalette15BrightWhite>#ffffff</CustomPalette15BrightWhite>
+    <CustomPalette1NormalRed>#bb0000</CustomPalette1NormalRed>
+    <CustomPalette2NormalGreen>#00bb00</CustomPalette2NormalGreen>
+    <CustomPalette3NormalYellow>#bbbb00</CustomPalette3NormalYellow>
+    <CustomPalette4NormalBlue>#0000bb</CustomPalette4NormalBlue>
+    <CustomPalette5NormalMagenta>#bb00bb</CustomPalette5NormalMagenta>
+    <CustomPalette6NormalCyan>#00bbbb</CustomPalette6NormalCyan>
+    <CustomPalette7NormalWhite>#bbbbbb</CustomPalette7NormalWhite>
+    <CustomPalette8BrightBlack>#555555</CustomPalette8BrightBlack>
+    <CustomPalette9BrightRed>#ff5555</CustomPalette9BrightRed>
+    <DrawBoldTextInBoldFont>True</DrawBoldTextInBoldFont>
+    <DrawBoldTextInBrightColors>True</DrawBoldTextInBrightColors>
+    <EnableBlinkingText>False</EnableBlinkingText>
+    <EnableItalicText>True</EnableItalicText>
+    <EncodingOSX>4</EncodingOSX>
+    <Favorite>False</Favorite>
+    <FontAntiAliasOSX>True</FontAntiAliasOSX>
+    <FontOSX>Monaco</FontOSX>
+    <FontSizeOSX>11</FontSizeOSX>
+    <ForeColor>7</ForeColor>
+    <HistoryMaxLength>1000</HistoryMaxLength>
+    <HistoryUnlimited>False</HistoryUnlimited>
+    <HorizontalCharSpacingOSX>1</HorizontalCharSpacingOSX>
+    <IPVersionOSX>0</IPVersionOSX>
+    <IsSerialPortConnection>False</IsSerialPortConnection>
+    <IsTelnetConnection>False</IsTelnetConnection>
+    <KeepAliveInterval>0</KeepAliveInterval>
+    <KeepTerminalContentOnDisconnect>False</KeepTerminalContentOnDisconnect>
+    <KeySequence>__flat_date{ENTER}</KeySequence>
+    <KeySequenceEnabled>True</KeySequenceEnabled>
+    <KeySequenceFromParent>False</KeySequenceFromParent>
+    <KeySequenceId>`!uuid old='00000000-0000-0000-0000-000000000000'!`</KeySequenceId>
+    <KeySequenceMode>0</KeySequenceMode>
+    <NonAsciiFontAntiAliasOSX>True</NonAsciiFontAntiAliasOSX>
+    <NonAsciiFontOSX>Monaco</NonAsciiFontOSX>
+    <NonAsciiFontSizeOSX>11</NonAsciiFontSizeOSX>
+    <ParentID>`!uuid old='0c58b0a4-ae23-4831-821b-d6133d975766'!`</ParentID>
+    <Port>22</Port>
+    <PostDisconnectTaskFromParent>False</PostDisconnectTaskFromParent>
+    <PostDisconnectTaskId>`!uuid old='00000000-0000-0000-0000-000000000000'!`</PostDisconnectTaskId>
+    <PostDisconnectTaskMode>1</PostDisconnectTaskMode>
+    <PostDisconnectTaskWait>False</PostDisconnectTaskWait>
+    <PreConnectTaskFromParent>False</PreConnectTaskFromParent>
+    <PreConnectTaskId>`!uuid old='00000000-0000-0000-0000-000000000000'!`</PreConnectTaskId>
+    <PreConnectTaskMode>1</PreConnectTaskMode>
+    <PreConnectTaskWait>False</PreConnectTaskWait>
+    <RunInsideLoginShell>False</RunInsideLoginShell>
+    <SelectionColor>#555555</SelectionColor>
+    <SelectionTextColor>#ffffff</SelectionTextColor>
+    <SendKeyCodeWhenIdle>-1</SendKeyCodeWhenIdle>
+    <SetLocaleVariables>True</SetLocaleVariables>
+    <SmartCursorColor>True</SmartCursorColor>
+    <SSHAllowAgentForwarding>False</SSHAllowAgentForwarding>
+    <SSHDontAllocateAPseudoTerminal>False</SSHDontAllocateAPseudoTerminal>
+    <SSHEnableX11Forwarding>False</SSHEnableX11Forwarding>
+    <TerminalColumns>80</TerminalColumns>
+    <TerminalName>xterm-256color</TerminalName>
+    <TerminalRows>24</TerminalRows>
+    <URI>Terminal</URI>
+    <VerticalCharSpacingOSX>1</VerticalCharSpacingOSX>
+    <WarnFingerprintMismatch>True</WarnFingerprintMismatch>
+  </RoyalSSHConnection>
+  <RoyalFolder>
+    <ID>`!uuid old='48d09935-702c-4379-b658-e17cca8b8915'!`</ID>
+    <Name>Credentials</Name>
+    <Modified>`!$timeStamp!`</Modified>
+    <Created>`!$timeStamp!`</Created>
+    <ModifiedBy>`!$invokerName!`</ModifiedBy>
+    <CreatedBy>`!$invokerName!`</CreatedBy>
+    <PositionNr>8</PositionNr>
+    <IsExpanded>False</IsExpanded>
+    <ParentID>`!uuid old='0c58b0a4-ae23-4831-821b-d6133d975766'!`</ParentID>
+  </RoyalFolder>
+  <RoyalFolder>
+    <ID>`!uuid old='aa1aec53-2366-4289-82ba-faabcf5e9c5b'!`</ID>
+    <Name>Tasks</Name>
+    <Modified>`!$timeStamp!`</Modified>
+    <Created>`!$timeStamp!`</Created>
+    <ModifiedBy>`!$invokerName!`</ModifiedBy>
+    <CreatedBy>`!$invokerName!`</CreatedBy>
+    <PositionNr>10</PositionNr>
+    <IsExpanded>False</IsExpanded>
+    <ParentID>`!uuid old='0c58b0a4-ae23-4831-821b-d6133d975766'!`</ParentID>
+  </RoyalFolder>
+</RTSZDocument>

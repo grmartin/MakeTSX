@@ -1,0 +1,11 @@
+{
+  "name": "MakeRSXEnv",
+  "description": "Make a RoyalTS|X Environment for a sub folder.",
+  "license": "0BSD",
+  "require": {
+    "php" : "^7.2",
+    "smarty/smarty": "~3.1",
+    "ramsey/uuid": "^3.8",
+    "ext-posix": "*"
+  }
+}
