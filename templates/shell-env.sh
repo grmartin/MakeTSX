@@ -1,15 +1,16 @@
 #!/bin/bash
 
 # Detect a RoyalTS(X) session and load standard login shell scripts first.
-if [ ! -z ${ROYAL_FILE_PATH+x} ] 
-then 
-	echo "RoyalTS session found, importing standard environment info." 
+if [ ! -z ${ROYAL_FILE_PATH+x} ]
+then
+	echo "RoyalTS session found, importing standard environment info."
 	# Read in default profile scripts. Tilde expansion cant be trusted here yet.
 	test -r "/etc/bashrc" -a -f "/etc/bashrc" && . /etc/bashrc 2> /dev/null
 	test -r "/etc/profile" -a -f "/etc/profile" && . /etc/profile 2> /dev/null
 	test -r "$HOME/.bashrc" -a -f "$HOME/.bashrc" && . "$HOME/.bashrc" 2> /dev/null
 	test -r "$HOME/.bash_profile" -a -f "$HOME/.bash_profile" && . "$HOME/.bash_profile" 2> /dev/null
-	
+	test -r "$HOME/.profile" -a -f "$HOME/.bash_profile" && . "$HOME/.bash_profile" 2> /dev/null
+
 	# invoke macOS path building app.
 	if [ -x /usr/libexec/path_helper ]; then
     	eval `/usr/libexec/path_helper -s`
